@@ -3,6 +3,28 @@ sbt-jumpstart
 
 VERY simple SBT directory template to get you going with SBT and Scala.
 
+><yourprojectname>
+>├── build.sbt
+>├── lib
+>├── project
+>│   ├── Build.scala
+>│   └── plugins.sbt
+>├── README.md
+>└── src
+>    ├── main
+>    │   ├── java
+>    │   ├── resources
+>    │   └── scala
+>    └── test
+>        ├── java
+>        ├── resources
+>        └── scala
+
+To get this, just do:
+> git clone git://github.com/jacobus/sbt-jumpstart <your-project-name>
+
+This may save you five minutes of your life. Everytime you use it, you can: take a leak, eat a chocolate, drink cocao or stare out the window.
+
 Note: If you own a Scala repository, please send me the content I should add to the build files (or send a pull request) so that it can become part of the template. It will be commented out be default, but will allow new users to get started.
 
 Requirements
@@ -11,7 +33,7 @@ Requirements
 Scala and sbt-extras should in installed.
 
 For Ubuntu:
-sudo apt-get install sbt
+> sudo apt-get install sbt
 
 This installs the sbt-extras script under /usr/bin/sbt and will also put the sbt-launch.jar file in some mystical place on your system.
 
@@ -38,4 +60,7 @@ Done
 
 First run:
 
->sbt
+> sbt
+
+Stuff should happen.
+

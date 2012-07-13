@@ -1,3 +1,9 @@
+# Temp gedit and vim files
+*~
+.*~
+*.swp
+*.swo
+
 *.class
 *.log
 
