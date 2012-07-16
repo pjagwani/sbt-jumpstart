@@ -10,12 +10,12 @@ VERY simple SBT directory template to get you going with new versions of SBT and
     │
     ├── lib
     ├── project
-    │   ├── build.properties <-- You can set the SBT version here
+    │   ├── build.properties <-- Set SBT version for sbt-extras
     │   ├── Build.scala      <-- More advanced config
     │   └── plugins.sbt      <-- SBT plugins like sbteclipse
     └── src
        ├── main
-       │   ├── java          <-- Java source files - if you are a dinosaur
+       │   ├── java          <-- Java source files - working with dinosaurs
        │   ├── resources     <-- Stuff that must be added to the jar
        │   └── scala         <-- Scala source files - here you profit
        └── test
