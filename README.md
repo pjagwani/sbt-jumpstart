@@ -52,16 +52,20 @@ Step 2:
 
 Open build.sbt and set your project name, company name and version
 
-Step 3 (Option 1):
------------------
+Open .git/config and set the url to your own project name
+
+Step 3:
+-------
+
+"Option 1"
 
 If you are using Scala IDE, then run:
     sbt eclipse
 
 Now you can use 'import existing project' in Eclipse. Keep in mind that you need to do this again if you change external dependancies and then refresh your project in Eclipse.
 
-Step 3 (Option 2):
------------------
+
+"Option 2"
 
 Just run:
 
